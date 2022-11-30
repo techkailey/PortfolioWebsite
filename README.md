@@ -10,7 +10,7 @@ DESCRIPTION
 
 EXECUTING PROGRAM
 
-* To run this program, type in the addess bar "https://techkailey.github.io/"
+* To run this program, type in the addess bar: "https://techkailey.github.io/" or click the link. 
 * This will direct you to the website.
 * However, when transferring the website with the link, it modifies a few things. 
 * For example, the pictures and background color. 
