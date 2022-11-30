@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kailey's Webiste</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav> 
+            <img src="images/logo.png" class="logo">
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul> 
+        </nav>
+        <div class="header-text">
+            <p>UNO Computer Science Student</p>
+            <h1>Hello, I am <span>Kailey<br></h1>
+        </div>
+    </div>
+</div>
+<!-- ----------about---------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user1.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I strive to continue to learn, travel, and make a difference. I have been privileged to visit a variety of locations in the United States and out of the Country. 
+                    A few of my favorite places include Mexico, Colorado, Jamaica, and New Hampshire. 
+                    After I graduate, I would like to work for a company that allows me to travel, continue my education, and make an impact around the world. </p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Coding Languages</span><br>Java, Python, HTML, CSS, JavaScript, C, C++, x86 Assembly Language</li>
+                        <li><span>Tools and Frameworks</span><br>Git, GitHub, SysAid, Amazon Web Services, JUnit, Microsoft Office, Sublime, Visual Studio Code</li>
+                        <li><span>Soft Skills</span><br>Agile Methology, Self-Motivated Learner, Leadership, Problem-Solving, Adaptability, Trainability, Growth Mindset</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>UNO IT Help Desk Consultant - New Orleans, Louisiana</span><br><br>January 2022 - Present<br><br>
+                        • Provide Security & Confidentiality of user’s profile account information.<br>
+                        • Analytical and problem-solving skills to troubleshoot and diagnose issues.<br>
+                        • Time management skills to provide updates and fixes within a promised period.<br>
+                        • Multitasking skills to assist multiple employees at once.<br>
+                        • Strong oral communication skills to gather information from users and explain complex technical concepts in simple language. 
+                        </li>
+                        <li><span>Ruby Slipper Cafe Server - Metairie, Louisiana</span><br><br>May 2021 - Present<br><br>
+                        • Perform all duties and responsibilities in a timely and effective manner with a sense of urgency.<br>
+                        • Uphold and maintain high quality customer service and hospitality.<br>                           
+                        • Ensure guests’ expectations have been exceeded. Professionally resolve food or service issues 
+                        </li>
+                    </ul>
+                </div><div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>University of New Orleans - Bachelor's in Computer Science</span><br><br>August 2021 - May 2025<br><br>
+                        • Relevant Courses- Software Design Ⅰ and Ⅱ, Assembly Language Programming, Data Structures and Systems Programming Concepts<br>
+                        • Relevant Courses in Progress- Computer Design and Organization and Introduction to Theory of Computation<br>         
+                        • Honors- President’s List (2021-2022)<br>                       
+                        • GPA- 3.73/4.0<br><br>
+                        I am proud to be the 2022 Association for Computing Machinery - Women's Chapter (ACM-W) President. 
+                        As the President of ACM-W at the University of New Orleans, my goal is to bring Women in STEM together, namely Computer Science: 
+                        while gaining knowledge, experience, and friendships along the way.  
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- -----services----- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <h2>Web Design</h2>
+                <p>By using HTML, CSS, and JavaScript, I created my portfolio website. 
+                    This project sparked my interest in Web Design and Development. 
+                </p>
+                <a href="https://github.com/techkailey">Learn more</a>
+            </div>
+            <div>
+                <h2>Software Design and Development</h2>
+                <p> I am proficent in Java, and familar with Python, C, C++, x86 Assembly Language, JavaScript, CSS, and HTML.
+                </p>
+                <a href="https://github.com/techkailey">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- -----portfolio----- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/logo.png">
+                <div class="layer">
+                    <h2><a href="https://github.com/techkailey">All of my work can be accessed here.</a>
+                    </h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- -----contact----- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-regular fa-paper-plane-top"></i>kbergeron24@icloud.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>504-547-5527</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/kaileybergeron/">LinkedIn</a>
+                </div>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright 2022 © Kailey Bergeron</p>
+    </div>
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwagvKMNezyZ6bhhlUjan17Sp_Glm6zaxMQ2cLLfc159zYdzu9Ju6WTwxiJAS0Cf2bq/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
