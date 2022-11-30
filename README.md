@@ -24,7 +24,6 @@ AUTHOR
 
 ACKNOWLEDGMENTS
 
-*Easy Tutorials on Youtube had very clear instructions on how to create 
-* a portfolio webiste, they also explain what the code means and how to customize your webiste. 
+* Easy Tutorials on Youtube had very clear instructions on how to create a portfolio webiste, they also explain what the code means and how to customize your webiste. 
 * The link below is the tutorial
 * https://www.youtube.com/watch?v=0YFrGy_mzjY&t=1399s
