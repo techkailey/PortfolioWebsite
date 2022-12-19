@@ -6,10 +6,6 @@ DESCRIPTION
 - I learned: JavaScript, CSS, and HTML. These three languages helped me build and create my website. On my website, I have five different sections:
 Home, About, Services, Portfolio, and Contact.
 
-EXECUTING PROGRAM
-- To run this program, type in the addess bar: "https://techkailey.github.io/PortfolioWebsite" or click the link.
-- This will direct you to the website.
-
 AUTHOR
 - Kailey Bergeron
 - techkailey
